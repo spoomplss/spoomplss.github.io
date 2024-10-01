@@ -3,41 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ota-kun</title>
+
+    <!-- Imports from either external files or the internet -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <title>Home</title>
     <!-- What icon to display in the browser (svg) -->
 </head>
 <body>
-    <article> <!-- TEMPORARY MESSAGE -->
+    <article class="temp_border" style="color:darkred"> <!-- TEMPORARY MESSAGE -->
         <p>Wanted to put semantics on everything so I am starting anew, here take a look: <a href="https://github.com/spoomplss/spoomplss.github.io" target="_blank">https://en.wikipedia.org/wiki/Goliath</a></p>
         <p>Last Updated: September 30, 2024</p>
-        
     </article>
-    <nav> <!-- SHOULD PROBABLY HAVE ITS OWN .html SO THE OTHER PAGES' NAVS MATCH ONE ANOTHER-->
-        <!-- Display probably the web title to the left here -->
-        <!-- To the right, proposed links are: Home | Projects | Contact -->
-    </nav>
 
-    <header> <!-- TOP OF PAGE/INTRODUCTION -->
+    <header id="header_import"></header> <!-- Imports the Header -->
+
+    <section class="temp_border"> <!-- TOP OF PAGE/INTRODUCTION -->
         <!-- Heading 1 of the webtitle, profile img is probably the same as the disc one, then a short introduction -->
-    </header>
+        <div class="temp_square temp_border"></div>
+        <h1 class="temp_name">OTA-KUN</h1>
+        <p class="temp_desc">Lorem Ipsum</p>
+    </section>
 
     <main> <!-- MAJORITY OF HOME CONTENT -->
 
-        <section> <!-- Project Section -->
+        <section class="temp_border"> <!-- Project Section -->
             <!-- Preview to the Projects page, thinking of a slide panel with popups -->
+            <h2 class="temp_name">Projects</h2>
+            <p class="temp_desc">Lorem Ipsum</p>
+            <div class="temp_rectangle temp_border"></div>
         </section>
 
-        <section> <!-- Section for FAQs -->
-            <article> <!-- Each FAQ is enclosed in an article, format would be | FAQ <br> answer | -->
+        <section class="temp_border"> <!-- Section for FAQs -->
+            <h2 class="temp_name">FAQs</h2>
+            <article class="temp_border"> <!-- Each FAQ is enclosed in an article, format would be | FAQ <br> answer | -->
                 <!-- If ever answer is a table, flex it-->
+                <h3 class="temp_name">Que Sera Sera</h3>
+                <p class="temp_desc">Lorem Ipsum</p>
+            </article>
+            <article class="temp_border"> <!-- Each FAQ is enclosed in an article, format would be | FAQ <br> answer | -->
+                <!-- If ever answer is a table, flex it-->
+                <h3 class="temp_name">Que Sera Sera</h3>
+                <p class="temp_desc">Lorem Ipsum</p>
+            </article>
+            <article class="temp_border"> <!-- Each FAQ is enclosed in an article, format would be | FAQ <br> answer | -->
+                <!-- If ever answer is a table, flex it-->
+                <h3 class="temp_name">Que Sera Sera</h3>
+                <p class="temp_desc">Lorem Ipsum</p>
             </article>
         </section>
     </main>
 
-    <footer> <!-- BOTTOM OF PAGE, Wth am I gonna put here -->
-        <!-- Date of Last Update -->
-        <!-- <a> tag for the github page of this github page-->
-        <!-- <a> tag to return to top of page -->
-    </footer>
+    <footer id="footer_import"></footer>  <!-- Imports the Footer -->
 </body>
 </html>

@@ -1,5 +1,5 @@
 # Read Me
-I have too many links, so I'm putting them here, this file also serves as a logbook on wth I want to to with this.
+I have too many links, so I'm putting them here, this file also serves as a logbook on wth I want to do with this.
 
 ## Sept 30, 2024
 Wanted Semantics, started anew, a lot of comments in the index.html
@@ -12,3 +12,11 @@ Wanted Semantics, started anew, a lot of comments in the index.html
 - List down the FAQs
 - CSS to be followed
 - I'm still keeping the images folder
+
+## Oct 1, 2024
+Inserted temporary divs everywhere to visualize this as bare minimum as possible. If ever I want any additionals, it's on hold until I make this functional
+### Things to review
+- Added style.css, script.js, header.html, footer.html, projects.html, contact.html, and imported from jquery
+- Decide what color palette to use
+- Steal ideas from other websites, try linkedin portfolios
+- Descriptions, Details, Titles
