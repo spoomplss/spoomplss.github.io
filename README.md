@@ -20,3 +20,11 @@ Inserted temporary divs everywhere to visualize this as bare minimum as possible
 - Decide what color palette to use
 - Steal ideas from other websites, try linkedin portfolios
 - Descriptions, Details, Titles
+
+## Oct 7, 2024
+Border shadows, Color Palettes, Lists, Descriptions, Titles
+### Things to keep track of
+- Figure out the pop-ups for everything
+- Images for everything
+- Read Chp 24 of I Got Married to the Girl I Hate Most in Class
+- Transitions and Animations, namely the background
