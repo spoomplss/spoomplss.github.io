@@ -28,3 +28,11 @@ Border shadows, Color Palettes, Lists, Descriptions, Titles
 - Images for everything
 - Read Chp 24 of I Got Married to the Girl I Hate Most in Class
 - Transitions and Animations, namely the background
+
+## Oct 8, 2024
+A start to making it responsive af, Revamped images folder, Transitions, contact.html
+### Things to be nostalgic about
+- Relearn EventListeners and every [element].[property] combo
+- Popups for each picture and probably the contact.html too
+- Make her forget everything
+- Properly credit pictures, for now they are just links

@@ -1,4 +1,4 @@
-/* ------------------TEMPORARY------------------------- */
+/* ------------------INDEX------------------------- */
 .temp_border {
     border: solid #332e2e;
     padding: 10px;
@@ -12,11 +12,35 @@
 .temp_name {
     color: #00080c;
 }
-.temp_square {
-    width: 15%;
-    height: 0;
-    padding-bottom: 15%;
+.temp_cover {
+    width: 12%;
     background-color: #dce5e3;
+    min-width: 130px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp_cover img {
+    border: solid#332e2e;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.temp_square {
+    width: 6%;
+    background-color: #dce5e3;
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp_square img{
+    border: solid#332e2e;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 .temp_rectangle {
     width: 40%;
@@ -33,9 +57,10 @@
 .temp_catalog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .temp_profile {
-    min-width: 150px;
+    min-width: 250px;
     width: 20%;
     height: 20%;
     padding: 0px;
@@ -57,15 +82,65 @@
 .temp_links {
     text-decoration: none;
     color: #00080c;
+    transition: margin 0.5s;
+}
+.temp_links:hover {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.temp_join {
+    display: flex;
+}
+.temp_join article {
+    flex: 1;
 }
 /* ------------------HEADER----------------------------- */
 #header {
     display: flex;
     justify-content: space-between;
 }
-/* --------------------INDEX---------------------------- */
-
-/* --------------------EVERYWHERE----------------------- */
+/* --------------------FOOTER---------------------------- */
+#footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#footer nav a {
+    padding: 0px 10px;
+}
+/* --------------------CONTACT-------------------------- */
+#contact_window {
+    width: 40%;
+}
+#contact_name {
+    width: 94%;
+}
+#contact_content {
+    width: 94%;
+    height: 30vh;
+}
+#contact_click {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.temp_area {
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10%;
+}
+/* --------------------AUXILIARY------------------------ */
 body {
     background-color: #fff7f3;
+}
+.center {
+    text-align: center;
+}
+/* --------------------MOBILE--------------------------- */
+.mobile_centered {
+    display: flex;
+    justify-content: left;
+}
+.mobile_disappear {
+    display: block;
 }
